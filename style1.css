@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .signup-section, .login-section {
@@ -105,4 +106,13 @@ form button.btn:hover {
 
 #login-success-message {
     color: #2E8B57; 
+}
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .signup-section, .login-section {
+        width: 80%; 
+        margin-bottom: 20px; 
+    }
 }
