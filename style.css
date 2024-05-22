@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+.sidebar .nav-link {
+    color: white;
+}
+.header {
+    width: 100%;
+    background-color: #6c757d;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    padding: 15px;
+    z-index: 1000;
+}
+.content {
+    margin-left: 250px;
+    margin-top: 70px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+.card-body img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px; 
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+}
