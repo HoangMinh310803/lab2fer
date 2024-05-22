@@ -43,6 +43,13 @@ body {
 .social-buttons button:hover {
     background-color: #00205B; 
 }
+.social-buttons img{
+    width: 80px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .separator {
     display: flex;
