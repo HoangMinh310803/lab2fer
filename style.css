@@ -43,11 +43,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:420px) {
-    .icons i img {
-        font-size: 20px;
-    }
-}
+
 
 .main-content{
     width: 100%;
@@ -71,4 +67,27 @@
 }
 .nav-link:hover{
     color: beige;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.content h1{
+    font-size: 60px;
+}
+#btn1 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+#btn1 button:hover{
+    background-color: aquamarine;
+}
+@media screen and (max-width:420px) {
+    .content h1 {
+        font-size: 30px;
+    }
 }
